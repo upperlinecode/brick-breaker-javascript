@@ -1,5 +1,7 @@
 # Brick Breaker
 
+[![Run on Repl.it](https://repl.it/badge/github/upperlinecode/brick-breaker-javascript)](https://repl.it/github/upperlinecode/brick-breaker-javascript)
+
 ## What We're Building
 
 Brick Breaker is a classic game in which a player uses a paddle to bounce a ball around and break some bricks. If you haven't seen it previously, that sentence probably sounded really strange. Feel free to google it and play around for a minute or two.
