@@ -14,11 +14,12 @@ If you'd like a little more structure than that, feel free to follow the general
 
 ### Step One: Start off by creating a paddle which the player can move left and right.
 
-1. Draw a horizontal rectangle near the bottom of the screen.
+1. Draw a horizontal rectangle near the bottom of the screen to represent the paddle.
 
 2. Create an object called `paddle` with properties `x` and `y`, and itilialize it to somewhere reasonable in the `setup`. Then replace the coordinates of the rectangle with `paddle.x` and `paddle.y`.
 
 3. Add a definition for `function keyPressed()`, and within it, add two conditionals. The first should check if `keyCode === LEFT_ARROW`, and if so, should decrease `paddle.x` by a small amount. The second should do the same for the right arrow.
+    * This may create some jerky movement which you may like, but may not. If you'd rather try to create smooth movement, you may want to reserach how to used the built-in variable `keyIsPressed` inside the draw loop. Consult the [p5 Reference](https://p5js.org/reference/#/p5/keyIsPressed) to see an example.
 
 ### Step Two: Next, we'll add a bouncing ball.
 
